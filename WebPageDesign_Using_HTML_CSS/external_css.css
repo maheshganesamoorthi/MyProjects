@@ -1,0 +1,214 @@
+body {
+    width: auto;
+    height: auto;
+    margin-left: -0.6%;
+}
+.center-div
+{  
+   position: relative;
+    width: 940px;
+    height: 680px;
+    margin: 0 auto;
+    top: -8px;
+    float: inherit;
+}
+
+.center-div1
+{  
+    position: relative;
+    width: 900px;
+    height: 352px;
+    margin-left: 21px;
+    margin-right: 29px;
+    background-image: url('http://cs-server.usc.edu:45678/hw/hw3/images/main.jpg');
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+.center-div2
+{  
+    position: relative;
+    width: 940px;
+    height: 69px;
+    left:1px;
+    background-image: url('http://cs-server.usc.edu:45678/hw/hw3/images/menu.png');
+    background-repeat:no-repeat;
+    background-size: 100%;  
+}
+.center-div3
+{  
+    
+    position: relative;
+    width: 900px;
+    height: 319px;
+    margin-left: 21px;
+    margin-right: 29px;
+    background-color: white;
+    margin-top: -3.0%;
+    
+}
+
+.div1-text{
+    position: absolute;
+    top: 220px;
+    right: 125px;
+    height: 31px;
+    text-indent: 2px;
+    font-size: 200%;    
+    
+}
+
+.div2-text{
+    position: absolute;
+    top: 255px;
+    right: 59px;
+    height: 31px;
+    text-indent: 2px;
+    font-size: 140%;       
+}
+
+.div2-background1{
+    height: 62px;
+    text-indent: 72px;
+    font-size: 110%;
+    line-height: 47px;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+.div2-background2{
+    height: 62px;
+    text-indent: 66px;
+    font-size: 110%;
+    line-height: 47px;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+.div2-background3{
+    height: 62px;
+    text-indent: 48px;
+    font-size: 110%;
+    line-height: 47px;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+.div2-background4{
+    height: 62px;
+    text-indent: 45px;
+    font-size: 110%;
+    line-height: 47px;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+.div2-background5{
+    height: 62px;
+    text-indent: 40px;
+    font-size: 110%;
+    line-height: 47px;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+.div2-background6{
+    height: 62px;
+    text-indent: 33px;
+    font-size: 110%;
+    line-height: 47px;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+.p1 {
+    position: relative;
+    font-weight: 500;
+    font-size: 87%;
+    margin-left: 1%;    
+    margin-top: -1.5%;
+}
+
+.p2 {
+    position: relative;
+    font-weight: 600;
+    font-size: 105%;  
+}
+
+
+.bottomtext {
+    position: absolute;
+    font-weight: 700;  
+    font-size: 80%; 
+    top:300px;
+    left:363px;
+    color:#E5CC00;
+    text-align: center;
+    left: 365px;
+    }
+
+.bottomtext1 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 80%; 
+    top:300px;
+    left:363px;
+    text-align: center;
+    left: 413px;
+    }
+
+.bottomtext2 {
+    position: absolute;
+    font-weight: 700;  
+    font-size: 80%; 
+    top:300px;
+    left:363px;
+    color:#E5CC00;
+    text-align: center;
+    left: 430px;
+    }
+
+.tab{
+    margin-left: 1%;
+    font-size: 130%;    
+}
+
+.tab1{
+    margin-left: 1%;
+    font-size: 105%;   
+    margin-top: -8px;
+    font-weight: 600;    
+}
+
+.tab2{
+    margin-left: 1%;
+    font-size: 105%;   
+    font-weight: 600;    
+}
+.p3 {
+    position: relative;
+    font-weight: 500;
+    font-size: 87%;
+    margin-left: 1%;    
+    margin-top: 1%;
+}
+
+.p4{
+    position: relative;
+}
+
+.yellow2{
+    color:#AC9800;
+}
+
+.flower{
+    color:#F3D861;
+}
+
+.brian{
+    color:#776A00;
+}
+
+.bottomlinks{
+    color:#E5CC00;
+}

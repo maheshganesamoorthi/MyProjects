@@ -1,0 +1,168 @@
+Line 37: Class RichTextLib.RichTextBox of control RichTextBox11 was not a loaded control class.
+Line 57: Class RichTextLib.RichTextBox of control RichTextBox12 was not a loaded control class.
+Line 77: Class RichTextLib.RichTextBox of control RichTextBox13 was not a loaded control class.
+Line 97: Class RichTextLib.RichTextBox of control RichTextBox14 was not a loaded control class.
+Line 117: Class RichTextLib.RichTextBox of control RichTextBox15 was not a loaded control class.
+Line 138: Class RichTextLib.RichTextBox of control RichTextBox16 was not a loaded control class.
+Line 158: Class RichTextLib.RichTextBox of control RichTextBox17 was not a loaded control class.
+Line 178: Class RichTextLib.RichTextBox of control RichTextBox18 was not a loaded control class.
+Line 198: Class RichTextLib.RichTextBox of control RichTextBox19 was not a loaded control class.
+Line 218: Class RichTextLib.RichTextBox of control RichTextBox20 was not a loaded control class.
+Line 239: Class RichTextLib.RichTextBox of control Text22 was not a loaded control class.
+Line 295: Class RichTextLib.RichTextBox of control RichTextBox1 was not a loaded control class.
+Line 315: Class RichTextLib.RichTextBox of control RichTextBox2 was not a loaded control class.
+Line 335: Class RichTextLib.RichTextBox of control RichTextBox3 was not a loaded control class.
+Line 355: Class RichTextLib.RichTextBox of control RichTextBox4 was not a loaded control class.
+Line 375: Class RichTextLib.RichTextBox of control RichTextBox5 was not a loaded control class.
+Line 396: Class RichTextLib.RichTextBox of control RichTextBox6 was not a loaded control class.
+Line 416: Class RichTextLib.RichTextBox of control RichTextBox7 was not a loaded control class.
+Line 436: Class RichTextLib.RichTextBox of control RichTextBox8 was not a loaded control class.
+Line 456: Class RichTextLib.RichTextBox of control RichTextBox9 was not a loaded control class.
+Line 476: Class RichTextLib.RichTextBox of control RichTextBox10 was not a loaded control class.
+Line 497: Class RichTextLib.RichTextBox of control Text23 was not a loaded control class.
+Line 553: Class RichTextLib.RichTextBox of control Text21 was not a loaded control class.
+Line 575: Class RichTextLib.RichTextBox of control Text5 was not a loaded control class.
+Line 595: Class RichTextLib.RichTextBox of control Text4 was not a loaded control class.
+Line 615: Class RichTextLib.RichTextBox of control Text3 was not a loaded control class.
+Line 635: Class RichTextLib.RichTextBox of control Text2 was not a loaded control class.
+Line 655: Class RichTextLib.RichTextBox of control Text1 was not a loaded control class.
+Line 676: Class RichTextLib.RichTextBox of control Text10 was not a loaded control class.
+Line 696: Class RichTextLib.RichTextBox of control Text9 was not a loaded control class.
+Line 716: Class RichTextLib.RichTextBox of control Text8 was not a loaded control class.
+Line 736: Class RichTextLib.RichTextBox of control Text7 was not a loaded control class.
+Line 756: Class RichTextLib.RichTextBox of control Text6 was not a loaded control class.
+Line 43: The property name _ExtentX in RichTextBox11 is invalid.
+Line 44: The property name _ExtentY in RichTextBox11 is invalid.
+Line 45: The property name _Version in RichTextBox11 is invalid.
+Line 46: The property name TextRTF in RichTextBox11 is invalid.
+Line 63: The property name _ExtentX in RichTextBox12 is invalid.
+Line 64: The property name _ExtentY in RichTextBox12 is invalid.
+Line 65: The property name _Version in RichTextBox12 is invalid.
+Line 66: The property name TextRTF in RichTextBox12 is invalid.
+Line 83: The property name _ExtentX in RichTextBox13 is invalid.
+Line 84: The property name _ExtentY in RichTextBox13 is invalid.
+Line 85: The property name _Version in RichTextBox13 is invalid.
+Line 86: The property name TextRTF in RichTextBox13 is invalid.
+Line 103: The property name _ExtentX in RichTextBox14 is invalid.
+Line 104: The property name _ExtentY in RichTextBox14 is invalid.
+Line 105: The property name _Version in RichTextBox14 is invalid.
+Line 106: The property name TextRTF in RichTextBox14 is invalid.
+Line 123: The property name _ExtentX in RichTextBox15 is invalid.
+Line 124: The property name _ExtentY in RichTextBox15 is invalid.
+Line 125: The property name _Version in RichTextBox15 is invalid.
+Line 127: The property name TextRTF in RichTextBox15 is invalid.
+Line 144: The property name _ExtentX in RichTextBox16 is invalid.
+Line 145: The property name _ExtentY in RichTextBox16 is invalid.
+Line 146: The property name _Version in RichTextBox16 is invalid.
+Line 147: The property name TextRTF in RichTextBox16 is invalid.
+Line 164: The property name _ExtentX in RichTextBox17 is invalid.
+Line 165: The property name _ExtentY in RichTextBox17 is invalid.
+Line 166: The property name _Version in RichTextBox17 is invalid.
+Line 167: The property name TextRTF in RichTextBox17 is invalid.
+Line 184: The property name _ExtentX in RichTextBox18 is invalid.
+Line 185: The property name _ExtentY in RichTextBox18 is invalid.
+Line 186: The property name _Version in RichTextBox18 is invalid.
+Line 187: The property name TextRTF in RichTextBox18 is invalid.
+Line 204: The property name _ExtentX in RichTextBox19 is invalid.
+Line 205: The property name _ExtentY in RichTextBox19 is invalid.
+Line 206: The property name _Version in RichTextBox19 is invalid.
+Line 207: The property name TextRTF in RichTextBox19 is invalid.
+Line 224: The property name _ExtentX in RichTextBox20 is invalid.
+Line 225: The property name _ExtentY in RichTextBox20 is invalid.
+Line 226: The property name _Version in RichTextBox20 is invalid.
+Line 228: The property name TextRTF in RichTextBox20 is invalid.
+Line 245: The property name _ExtentX in Text22 is invalid.
+Line 246: The property name _ExtentY in Text22 is invalid.
+Line 247: The property name _Version in Text22 is invalid.
+Line 249: The property name ScrollBars in Text22 is invalid.
+Line 250: The property name TextRTF in Text22 is invalid.
+Line 301: The property name _ExtentX in RichTextBox1 is invalid.
+Line 302: The property name _ExtentY in RichTextBox1 is invalid.
+Line 303: The property name _Version in RichTextBox1 is invalid.
+Line 304: The property name TextRTF in RichTextBox1 is invalid.
+Line 321: The property name _ExtentX in RichTextBox2 is invalid.
+Line 322: The property name _ExtentY in RichTextBox2 is invalid.
+Line 323: The property name _Version in RichTextBox2 is invalid.
+Line 324: The property name TextRTF in RichTextBox2 is invalid.
+Line 341: The property name _ExtentX in RichTextBox3 is invalid.
+Line 342: The property name _ExtentY in RichTextBox3 is invalid.
+Line 343: The property name _Version in RichTextBox3 is invalid.
+Line 344: The property name TextRTF in RichTextBox3 is invalid.
+Line 361: The property name _ExtentX in RichTextBox4 is invalid.
+Line 362: The property name _ExtentY in RichTextBox4 is invalid.
+Line 363: The property name _Version in RichTextBox4 is invalid.
+Line 364: The property name TextRTF in RichTextBox4 is invalid.
+Line 381: The property name _ExtentX in RichTextBox5 is invalid.
+Line 382: The property name _ExtentY in RichTextBox5 is invalid.
+Line 383: The property name _Version in RichTextBox5 is invalid.
+Line 385: The property name TextRTF in RichTextBox5 is invalid.
+Line 402: The property name _ExtentX in RichTextBox6 is invalid.
+Line 403: The property name _ExtentY in RichTextBox6 is invalid.
+Line 404: The property name _Version in RichTextBox6 is invalid.
+Line 405: The property name TextRTF in RichTextBox6 is invalid.
+Line 422: The property name _ExtentX in RichTextBox7 is invalid.
+Line 423: The property name _ExtentY in RichTextBox7 is invalid.
+Line 424: The property name _Version in RichTextBox7 is invalid.
+Line 425: The property name TextRTF in RichTextBox7 is invalid.
+Line 442: The property name _ExtentX in RichTextBox8 is invalid.
+Line 443: The property name _ExtentY in RichTextBox8 is invalid.
+Line 444: The property name _Version in RichTextBox8 is invalid.
+Line 445: The property name TextRTF in RichTextBox8 is invalid.
+Line 462: The property name _ExtentX in RichTextBox9 is invalid.
+Line 463: The property name _ExtentY in RichTextBox9 is invalid.
+Line 464: The property name _Version in RichTextBox9 is invalid.
+Line 465: The property name TextRTF in RichTextBox9 is invalid.
+Line 482: The property name _ExtentX in RichTextBox10 is invalid.
+Line 483: The property name _ExtentY in RichTextBox10 is invalid.
+Line 484: The property name _Version in RichTextBox10 is invalid.
+Line 486: The property name TextRTF in RichTextBox10 is invalid.
+Line 503: The property name _ExtentX in Text23 is invalid.
+Line 504: The property name _ExtentY in Text23 is invalid.
+Line 505: The property name _Version in Text23 is invalid.
+Line 507: The property name ScrollBars in Text23 is invalid.
+Line 508: The property name TextRTF in Text23 is invalid.
+Line 559: The property name _ExtentX in Text21 is invalid.
+Line 560: The property name _ExtentY in Text21 is invalid.
+Line 561: The property name _Version in Text21 is invalid.
+Line 563: The property name ScrollBars in Text21 is invalid.
+Line 564: The property name TextRTF in Text21 is invalid.
+Line 581: The property name _ExtentX in Text5 is invalid.
+Line 582: The property name _ExtentY in Text5 is invalid.
+Line 583: The property name _Version in Text5 is invalid.
+Line 584: The property name TextRTF in Text5 is invalid.
+Line 601: The property name _ExtentX in Text4 is invalid.
+Line 602: The property name _ExtentY in Text4 is invalid.
+Line 603: The property name _Version in Text4 is invalid.
+Line 604: The property name TextRTF in Text4 is invalid.
+Line 621: The property name _ExtentX in Text3 is invalid.
+Line 622: The property name _ExtentY in Text3 is invalid.
+Line 623: The property name _Version in Text3 is invalid.
+Line 624: The property name TextRTF in Text3 is invalid.
+Line 641: The property name _ExtentX in Text2 is invalid.
+Line 642: The property name _ExtentY in Text2 is invalid.
+Line 643: The property name _Version in Text2 is invalid.
+Line 644: The property name TextRTF in Text2 is invalid.
+Line 661: The property name _ExtentX in Text1 is invalid.
+Line 662: The property name _ExtentY in Text1 is invalid.
+Line 663: The property name _Version in Text1 is invalid.
+Line 665: The property name TextRTF in Text1 is invalid.
+Line 682: The property name _ExtentX in Text10 is invalid.
+Line 683: The property name _ExtentY in Text10 is invalid.
+Line 684: The property name _Version in Text10 is invalid.
+Line 685: The property name TextRTF in Text10 is invalid.
+Line 702: The property name _ExtentX in Text9 is invalid.
+Line 703: The property name _ExtentY in Text9 is invalid.
+Line 704: The property name _Version in Text9 is invalid.
+Line 705: The property name TextRTF in Text9 is invalid.
+Line 722: The property name _ExtentX in Text8 is invalid.
+Line 723: The property name _ExtentY in Text8 is invalid.
+Line 724: The property name _Version in Text8 is invalid.
+Line 725: The property name TextRTF in Text8 is invalid.
+Line 742: The property name _ExtentX in Text7 is invalid.
+Line 743: The property name _ExtentY in Text7 is invalid.
+Line 744: The property name _Version in Text7 is invalid.
+Line 745: The property name TextRTF in Text7 is invalid.
+Line 762: The property name _ExtentX in Text6 is invalid.
+Line 763: The property name _ExtentY in Text6 is invalid.
+Line 764: The property name _Version in Text6 is invalid.
+Line 766: The property name TextRTF in Text6 is invalid.

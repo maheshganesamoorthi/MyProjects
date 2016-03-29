@@ -1,0 +1,891 @@
+[Root]
+Most Recent Package=Text writer 1.0
+Most Recent Deploy=Folder Deployment 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\writepad\doc
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\system32\msscript.ocx=
+C:\WINDOWS\system32\EXP\TABCTL32.OCX=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\richtx32.ocx=
+C:\WINDOWS\system32\comct332.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\MSMASK32.OCX=
+C:\WINDOWS\system32\PICCLP32.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\comct332.ocx=Yes
+C:\WINDOWS\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\welcome\Desktop\test\writepad1.0-new.exe=Yes
+C:\WINDOWS\system32\EXP\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+C:\WINDOWS\system32\COMCT232.OCX=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\msscript.ocx=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+F:\writepad\writepad.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comct332.ocx=$(WinSysPath)
+C:\WINDOWS\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\welcome\Desktop\test\writepad1.0-new.exe=$(AppPath)
+C:\WINDOWS\system32\EXP\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msscript.ocx=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+F:\writepad\writepad.exe=Yes
+C:\Documents and Settings\welcome\Desktop\test\writepad1.0-new.exe=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=1.44 MB
+Title=writepad
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=writepad
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|writepad]
+Icon1=writepad.exe
+Title1=writepad
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=F:\writepad\doc
+ProjectFolder=F:\writepad
+ServerSideCab=
+File1=F:\writepad\doc\setup.exe
+File2=F:\writepad\doc\Setup.Lst
+File3=F:\writepad\doc\writepad1.0-new.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 11|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\writepad\setup
+
+[Package|Standard Setup Package 11|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 11|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 11|Files Found]
+
+[Package|Standard Setup Package 11|Files Released]
+
+[Package|Standard Setup Package 11|Missing Dependency Information]
+C:\WINDOWS\system32\msscript.ocx=
+C:\WINDOWS\system32\EXP\TABCTL32.OCX=
+
+[Package|Standard Setup Package 11|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\richtx32.ocx=
+C:\WINDOWS\system32\comct332.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\MSMASK32.OCX=
+C:\WINDOWS\system32\PICCLP32.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\TABCTL32.OCX=
+
+[Package|Standard Setup Package 11|Files Added]
+
+[Package|Standard Setup Package 11|Files Removed]
+
+[Package|Standard Setup Package 11|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\comct332.ocx=Yes
+C:\WINDOWS\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+C:\WINDOWS\system32\COMCT232.OCX=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\msscript.ocx=Yes
+C:\Documents and Settings\welcome\Desktop\test\Writepad1.00.exe=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+
+[Package|Standard Setup Package 11|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 11|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 11|Install Locations]
+F:\writepad\writepad.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comct332.ocx=$(WinSysPath)
+C:\WINDOWS\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\welcome\Desktop\test\writepad1.0-new.exe=$(AppPath)
+C:\WINDOWS\system32\EXP\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msscript.ocx=$(WinSysPath)
+C:\Documents and Settings\welcome\Desktop\test\Writepad1.00.exe=$(AppPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+
+[Package|Standard Setup Package 11|Configure Shared Files]
+Applicable=Yes
+F:\writepad\writepad.exe=Yes
+C:\Documents and Settings\welcome\Desktop\test\writepad1.0-new.exe=Yes
+C:\Documents and Settings\welcome\Desktop\test\Writepad1.00.exe=No
+
+[Package|Standard Setup Package 11|Distribution]
+Type=single
+Size=1.44 MB
+Title=writepad
+
+[Package|Standard Setup Package 11|IconGroups]
+Group0=writepad
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 11|writepad]
+Icon1=writepad.exe
+Title1=writepad
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 11|Package]
+PackageFolder=F:\writepad\setup
+ProjectFolder=F:\writepad
+ServerSideCab=
+File1=F:\writepad\setup\setup.exe
+File2=F:\writepad\setup\Setup.Lst
+File3=F:\writepad\setup\Writepad1.00.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=F:\set1\writepad
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\WINDOWS\system32\msscript.ocx=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSMASK32.OCX=
+C:\WINDOWS\system32\PICCLP32.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\TABCTL32.OCX=
+C:\WINDOWS\system32\richtx32.ocx=
+C:\WINDOWS\system32\comct332.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\COMDLG32.OCX=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\comct332.ocx=Yes
+C:\WINDOWS\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+C:\WINDOWS\system32\COMCT232.OCX=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\msscript.ocx=Yes
+F:\set1\Writepad-1-new8.exe=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+F:\set\Writepad.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comct332.ocx=$(WinSysPath)
+C:\WINDOWS\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msscript.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\set1\Writepad-1-new8.exe=$(AppPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+F:\set\Writepad.exe=No
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=writepad
+
+[Package|Dep File 1|IconGroups]
+Group0=writepad
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dep File 1|writepad]
+Icon1=Writepad.exe
+Title1=writepad
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|DepFile]
+DepCabFile=Writepad 1.0.CAB
+DepCabRun=Writepad 1.0.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=F:\set1\writepad
+ProjectFolder=F:\writepad
+ServerSideCab=
+File1=F:\set1\writepad\Writepad-1-new8.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|write pad|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\set1
+
+[Package|write pad|Configure DAO ISAMs]
+Applicable=No
+
+[Package|write pad|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|write pad|Files Found]
+
+[Package|write pad|Files Released]
+
+[Package|write pad|Missing Dependency Information]
+C:\WINDOWS\system32\msscript.ocx=
+
+[Package|write pad|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSMASK32.OCX=
+C:\WINDOWS\system32\PICCLP32.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\TABCTL32.OCX=
+C:\WINDOWS\system32\richtx32.ocx=
+C:\WINDOWS\system32\comct332.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\COMDLG32.OCX=
+
+[Package|write pad|Files Added]
+
+[Package|write pad|Files Removed]
+
+[Package|write pad|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\comct332.ocx=Yes
+C:\WINDOWS\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+C:\WINDOWS\system32\COMCT232.OCX=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\msscript.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\set1\Writepad-1.exe=Yes
+
+[Package|write pad|Configure Registry Files]
+Applicable=No
+
+[Package|write pad|Configure Remote Servers]
+Applicable=No
+
+[Package|write pad|Install Locations]
+F:\set\Writepad.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comct332.ocx=$(WinSysPath)
+C:\WINDOWS\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msscript.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\set1\Writepad-1-new8.exe=$(AppPath)
+F:\set1\Writepad-1.exe=$(AppPath)
+
+[Package|write pad|Configure Shared Files]
+Applicable=Yes
+F:\set\Writepad.exe=No
+F:\set1\Writepad-1-new8.exe=Yes
+F:\set1\Writepad-1.exe=Yes
+
+[Package|write pad|Distribution]
+Type=single
+Size=1.44 MB
+Title=writepad
+
+[Package|write pad|IconGroups]
+Group0=writepad
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|write pad|writepad]
+Icon1=Writepad.exe
+Title1=writepad
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|write pad|Package]
+PackageFolder=F:\set1
+ProjectFolder=F:\writepad
+ServerSideCab=
+File1=F:\set1\setup.exe
+File2=F:\set1\Setup.Lst
+File3=F:\set1\Writepad-1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=g:\New Folder
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+C:\WINDOWS\system32\msscript.ocx=
+C:\WINDOWS\system32\wmp.dll=
+C:\WINDOWS\system32\msdxm.ocx=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSMASK32.OCX=
+C:\WINDOWS\system32\PICCLP32.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\TABCTL32.OCX=
+C:\WINDOWS\system32\richtx32.ocx=
+C:\WINDOWS\system32\comct332.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\COMDLG32.OCX=
+
+[Package|Standard Setup Package 2|Files Added]
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\comct332.ocx=Yes
+C:\WINDOWS\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+C:\WINDOWS\system32\COMCT232.OCX=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\msscript.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+G:\New Folder\Writepad 1.0=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\WINDOWS\system32\wmp.dll=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+F:\set\Writepad.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comct332.ocx=$(WinSysPath)
+C:\WINDOWS\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msscript.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+G:\New Folder\Writepad 1.0=$(AppPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\system32\wmp.dll=$(WinSysPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+F:\set\Writepad.exe=No
+G:\New Folder\Writepad 1.0=Yes
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=writepad
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=writepad
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|writepad]
+Icon1=Writepad.exe
+Title1=writepad
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=g:\New Folder
+ProjectFolder=F:\writepad
+ServerSideCab=
+File1=g:\New Folder\setup.exe
+File2=g:\New Folder\Setup.Lst
+File3=g:\New Folder\Writepad 1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|Folder Deployment 1|Root]
+Package=Writepad 1.0
+Handler=PDWizard.FolderDplySubWiz
+Folder=g:\ss
+
+
+[Package|Writepad 1.0|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=g:\new
+
+[Package|Writepad 1.0|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Writepad 1.0|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Writepad 1.0|Files Found]
+
+[Package|Writepad 1.0|Files Released]
+
+[Package|Writepad 1.0|Missing Dependency Information]
+C:\WINDOWS\system32\msscript.ocx=
+C:\WINDOWS\system32\wmp.dll=
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\EXP\TABCTL32.OCX=
+C:\WINDOWS\system32\EXP\mscomctl.ocx=
+
+[Package|Writepad 1.0|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSMASK32.OCX=
+C:\WINDOWS\system32\PICCLP32.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\TABCTL32.OCX=
+C:\WINDOWS\system32\richtx32.ocx=
+C:\WINDOWS\system32\comct332.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\COMDLG32.OCX=
+
+[Package|Writepad 1.0|Files Added]
+
+[Package|Writepad 1.0|Files Removed]
+
+[Package|Writepad 1.0|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\comct332.ocx=Yes
+C:\WINDOWS\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+C:\WINDOWS\system32\COMCT232.OCX=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\msscript.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\WINDOWS\system32\wmp.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\Documents and Settings\welcome\Desktop\test\exetest\Writepad 1=Yes
+
+[Package|Writepad 1.0|Configure Registry Files]
+Applicable=No
+
+[Package|Writepad 1.0|Configure Remote Servers]
+Applicable=No
+
+[Package|Writepad 1.0|Install Locations]
+F:\set\Writepad.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comct332.ocx=$(WinSysPath)
+C:\WINDOWS\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msscript.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\set1\Writepad-1-new8.exe=$(AppPath)
+F:\set1\Writepad-1.exe=$(AppPath)
+F:\set 1\Writepad-1-new29.exe=$(AppPath)
+C:\WINDOWS\system32\EXP\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\EXP\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\system32\wmp.dll=$(WinSysPath)
+C:\Documents and Settings\welcome\Desktop\test\exetest\Writepad-1-new29.exe=$(AppPath)
+C:\Documents and Settings\welcome\Desktop\test\exetest\Writepad-1-new30=$(AppPath)
+G:\new\Writepad 1.0.exe=$(AppPath)
+C:\Documents and Settings\welcome\Desktop\test\exetest\Writepad 1=$(AppPath)
+
+[Package|Writepad 1.0|Configure Shared Files]
+Applicable=Yes
+F:\set\Writepad.exe=No
+F:\set1\Writepad-1-new8.exe=Yes
+F:\set1\Writepad-1.exe=Yes
+F:\set 1\Writepad-1-new29.exe=Yes
+C:\Documents and Settings\welcome\Desktop\test\exetest\Writepad-1-new29.exe=No
+C:\Documents and Settings\welcome\Desktop\test\exetest\Writepad-1-new30=Yes
+G:\new\Writepad 1.0.exe=Yes
+C:\Documents and Settings\welcome\Desktop\test\exetest\Writepad 1=No
+
+[Package|Writepad 1.0|Distribution]
+Type=single
+Size=1.44 MB
+Title=Writepad 1.0
+
+[Package|Writepad 1.0|IconGroups]
+Group0=writepad
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Writepad 1.0|writepad]
+Icon1=Writepad.exe
+Title1=Writepad 1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Writepad 1.0|Package]
+PackageFolder=g:\new
+ProjectFolder=F:\writepad
+ServerSideCab=
+File1=g:\new\setup.exe
+File2=g:\new\Setup.Lst
+File3=g:\new\Writepad 1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Text writer 1.0|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\text writer
+
+[Package|Text writer 1.0|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Text writer 1.0|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Text writer 1.0|Files Found]
+
+[Package|Text writer 1.0|Files Released]
+
+[Package|Text writer 1.0|Missing Dependency Information]
+C:\WINDOWS\speech\VText.dll=
+C:\WINDOWS\system32\wmp.dll=
+C:\WINDOWS\system32\msdxm.ocx=
+C:\WINDOWS\system32\msscript.ocx=
+
+[Package|Text writer 1.0|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSMASK32.OCX=
+C:\WINDOWS\system32\PICCLP32.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\TABCTL32.OCX=
+C:\WINDOWS\system32\comct332.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Text writer 1.0|Files Added]
+
+[Package|Text writer 1.0|Files Removed]
+
+[Package|Text writer 1.0|Files In Project]
+C:\Documents and Settings\welcome\Desktop\text writer\Text writer 1.0.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\comct332.ocx=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+C:\WINDOWS\system32\COMCT232.OCX=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\msscript.ocx=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\WINDOWS\system32\wmp.dll=Yes
+C:\WINDOWS\speech\VText.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Text writer 1.0|Configure Registry Files]
+Applicable=No
+
+[Package|Text writer 1.0|Configure Remote Servers]
+Applicable=No
+
+[Package|Text writer 1.0|Install Locations]
+C:\Documents and Settings\welcome\Desktop\text writer\Text writer 1.0.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comct332.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msscript.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\system32\wmp.dll=$(WinSysPath)
+C:\WINDOWS\speech\VText.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Text writer 1.0|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\welcome\Desktop\text writer\Text writer 1.0.exe=Yes
+
+[Package|Text writer 1.0|Distribution]
+Type=single
+Size=
+Title=Text writer 1.0
+
+[Package|Text writer 1.0|IconGroups]
+Group0=Text writer 1.0
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Text writer 1.0|Text writer 1.0]
+Icon1="Text writer 1.0.exe"
+Title1=Text writer 1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Text writer 1.0|Package]
+PackageFolder=F:\text writer
+ProjectFolder=F:\writepad
+ServerSideCab=
+File1=F:\text writer\setup.exe
+File2=F:\text writer\Setup.Lst
+File3=F:\text writer\Text writer 1.0.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

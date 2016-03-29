@@ -1,0 +1,4 @@
+Line 16: Class MSComDlg.CommonDialog of control dlgCommonDialog1 was not a loaded control class.
+Line 65: Class MSComDlg.CommonDialog of control dlgCommonDialog was not a loaded control class.
+Line 72: Class RichTextLib.RichTextBox of control RTBox1 was not a loaded control class.
+Line 86: Class RichTextLib.RichTextBox of control RTBox was not a loaded control class.

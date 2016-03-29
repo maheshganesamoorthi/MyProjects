@@ -1,0 +1,60 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        &nbsp;
+        <table style="z-index: 100; left: 6px; width: 910px; position: absolute; top: 3px;
+            height: 600px">
+            <tr>
+                <td colspan="3" style="color: white; height: 157px; background: url(rainbow/rainbowgirl.jpeg) white fixed no-repeat left top;">
+                    &nbsp;&nbsp;
+                    <asp:LinkButton ID="LinkButton2" runat="server" Style="z-index: 100; left: 28px; color: silver;
+                        font-family: Magneto; position: absolute; top: 249px" Height="32px" Width="150px" PostBackUrl="~/now running.aspx" BackColor="Yellow" Font-Names="Comic Sans MS" Font-Underline="False" ForeColor="Red">Now Running</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton3" runat="server" Style="z-index: 101; left: 24px; color: silver;
+                        font-family: Magneto; position: absolute; top: 372px" Height="41px" Width="154px" PostBackUrl="~/book.aspx" BackColor="Yellow" Font-Italic="True" Font-Names="Comic Sans MS" Font-Underline="False" ForeColor="Red" OnClick="LinkButton3_Click">Book Tickets</asp:LinkButton>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; RAINBOW ENTERTAINMENTRRAINBOW ENTERTAINMENTR
+                    &nbsp;&nbsp;
+                    <asp:Image ID="Image2" runat="server" Height="210px" ImageUrl="D:\mahesh\ticketbooking\Images\rain.bmp"
+                        Style="z-index: 104; left: -2px; position: absolute; top: 2px" Width="994px" />
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="text-transform: capitalize;
+                    width: 220px; color: red; background-color: white; height: 366px; vertical-align: middle; text-align: center; text-decoration: none;">
+                    &nbsp; &nbsp;
+                    &nbsp;&nbsp;
+                    <asp:LinkButton ID="LinkButton4" runat="server" Font-Names="Comic Sans MS" ForeColor="Red"
+                        Height="37px" PostBackUrl="~/theater.aspx" Style="z-index: 101; left: 24px; position: absolute;
+                        top: 309px" Width="155px" BackColor="Yellow" Font-Underline="False" OnClick="LinkButton4_Click">theaters</asp:LinkButton>
+                    &nbsp; &nbsp;
+                    <asp:LinkButton ID="LinkButton7" runat="server" Font-Names="Comic Sans MS" ForeColor="Red"
+                        PostBackUrl="~/upcoming.aspx" Style="z-index: 105; left: 30px; position: absolute;
+                        top: 438px" Width="145px" BackColor="Yellow" Font-Italic="False" Font-Underline="False" Height="31px">Upcoming Movies</asp:LinkButton>
+                </td>
+                <td colspan="2" rowspan="2" style="width: 560px; background-color: white; height: 366px;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        &nbsp;<br />
+                        &nbsp;<span style="font-size: larger; text-transform: capitalize; color: #003399;
+                            font-style: italic"> </span></asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

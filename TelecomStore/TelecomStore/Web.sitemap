@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title="SUPER ADMIN"  description="" provider="SuperadminMapProvider">
+        <siteMapNode url="~/Users/AddingUsers.aspx" title="ADD USER"  description="" />
+        <siteMapNode url="~/Users/ViewUser.aspx" title="VIEW/DELETE/UPDATE"  description="" />
+      <siteMapNode url="~/Tagging/Tagging.aspx" title="TAG PRODUCTS"  description="" />
+      <siteMapNode url="~/Tagging/UnTagging.aspx" title="UN-TAG PRODUCTS"  description="" />
+    </siteMapNode>
+</siteMap>

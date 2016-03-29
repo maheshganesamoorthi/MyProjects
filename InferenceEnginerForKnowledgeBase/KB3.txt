@@ -1,0 +1,5 @@
+1
+B(John)
+2
+A(x,y,x)=>B(y)
+A(Alice,John,Bob)

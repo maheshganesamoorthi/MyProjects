@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelecomStore", "TelecomStore\TelecomStore.csproj", "{35765936-F186-449A-8D48-860249A19F6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelecomStore.DataAccess", "TelecomStore.DataAccess\TelecomStore.DataAccess.csproj", "{535EA2AA-1763-4B7F-80D4-14D86F47954A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelecomStore.BusinessLogic", "TelecomStore.BusinessLogic\TelecomStore.BusinessLogic.csproj", "{5B05761F-842C-4DE1-97F6-6C60B15E556A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelecomStore.DataAccess.Helper", "TelecomStore.DataAccess.Helper\TelecomStore.DataAccess.Helper.csproj", "{5C3D3E00-0B14-4253-81CC-5E8A42C1228E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelecomStore.BusinessObjects", "TelecomStore.BusinessObjects\TelecomStore.BusinessObjects.csproj", "{9AC8193D-2610-40BD-8668-D6364B7FEE1B}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://inchnilpdb02:9191/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TelecomStore.BusinessLogic\\TelecomStore.BusinessLogic.csproj
+		SccProjectName1 = TelecomStore.BusinessLogic
+		SccLocalPath1 = TelecomStore.BusinessLogic
+		SccProjectUniqueName2 = TelecomStore.DataAccess\\TelecomStore.DataAccess.csproj
+		SccProjectName2 = TelecomStore.DataAccess
+		SccLocalPath2 = TelecomStore.DataAccess
+		SccProjectUniqueName3 = TelecomStore\\TelecomStore.csproj
+		SccProjectName3 = TelecomStore
+		SccLocalPath3 = TelecomStore
+		SccProjectUniqueName4 = TelecomStore.DataAccess.Helper\\TelecomStore.DataAccess.Helper.csproj
+		SccProjectName4 = TelecomStore.DataAccess.Helper
+		SccLocalPath4 = TelecomStore.DataAccess.Helper
+		SccProjectUniqueName5 = TelecomStore.BusinessObjects\\TelecomStore.BusinessObjects.csproj
+		SccProjectName5 = TelecomStore.BusinessObjects
+		SccLocalPath5 = TelecomStore.BusinessObjects
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35765936-F186-449A-8D48-860249A19F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35765936-F186-449A-8D48-860249A19F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35765936-F186-449A-8D48-860249A19F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35765936-F186-449A-8D48-860249A19F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{535EA2AA-1763-4B7F-80D4-14D86F47954A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535EA2AA-1763-4B7F-80D4-14D86F47954A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535EA2AA-1763-4B7F-80D4-14D86F47954A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535EA2AA-1763-4B7F-80D4-14D86F47954A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B05761F-842C-4DE1-97F6-6C60B15E556A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B05761F-842C-4DE1-97F6-6C60B15E556A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B05761F-842C-4DE1-97F6-6C60B15E556A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B05761F-842C-4DE1-97F6-6C60B15E556A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C3D3E00-0B14-4253-81CC-5E8A42C1228E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3D3E00-0B14-4253-81CC-5E8A42C1228E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3D3E00-0B14-4253-81CC-5E8A42C1228E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3D3E00-0B14-4253-81CC-5E8A42C1228E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC8193D-2610-40BD-8668-D6364B7FEE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC8193D-2610-40BD-8668-D6364B7FEE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC8193D-2610-40BD-8668-D6364B7FEE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC8193D-2610-40BD-8668-D6364B7FEE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,90 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        &nbsp;
+        <table style="z-index: 100; left: 0px; width: 926px; position: absolute; top: -30px;
+            height: 618px">
+            <tr>
+                <td colspan="3" style="width: 887px; height: 147px">
+                    <asp:Image ID="Image1" runat="server" Height="165px" ImageUrl="~/App_Data/thumbnailCAU8D7T6.jpg"
+                        Style="z-index: 100; left: 502px; position: absolute; top: 31px" Width="307px" />
+                    <asp:Image ID="Image2" runat="server" Height="167px" ImageUrl="~/App_Data/thumbnailCAEAB482.jpg"
+                        Style="z-index: 101; left: 271px; position: absolute; top: 29px" Width="226px" />
+                    <asp:Label ID="Label1" runat="server" Height="173px" Style="font-size: 50pt; z-index: 103;
+                        left: 4px; color: #660099; font-style: italic; font-family: 'Brush Script MT', Monospace;
+                        position: absolute; top: 21px" Text="Smart Accessories" Width="265px"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="width: 887px; height: 80px">
+                    <table style="z-index: 100; left: 3px; width: 808px; position: absolute; top: 241px;
+                        height: 49px">
+                        <tr>
+                            <td rowspan="3" style="width: 172px">
+                                <asp:Button ID="Button1" runat="server" Height="43px" OnClick="Button1_Click" Style="z-index: 100;
+                                    left: 44px; position: absolute; top: 3px" Text="Home" Width="114px" />
+                            </td>
+                            <td rowspan="3" style="width: 153px">
+                                <asp:Button ID="Button2" runat="server" Height="43px" Style="z-index: 100; left: 210px;
+                                    position: absolute; top: 3px" Text="About us" Width="102px" />
+                            </td>
+                            <td rowspan="3" style="width: 140px">
+                                <asp:Button ID="Button3" runat="server" Height="39px" OnClick="Button3_Click" Style="z-index: 100;
+                                    left: 681px; position: absolute; top: 5px" Text="Products" Width="100px" />
+                            </td>
+                            <td rowspan="3" style="width: 166px">
+                                <asp:Button ID="Button4" runat="server" Height="41px" Style="z-index: 100; left: 354px;
+                                    position: absolute; top: 5px" Text="Shop Cart" Width="105px" />
+                            </td>
+                            <td rowspan="3">
+                                <asp:Button ID="Button5" runat="server" Height="38px" OnClick="Button5_Click" Style="z-index: 100;
+                                    left: 516px; position: absolute; top: 6px" Text="Contact Us" Width="104px" />
+                            </td>
+                        </tr>
+                        <tr>
+                        </tr>
+                        <tr>
+                        </tr>
+                    </table>
+                    <table style="z-index: 101; left: 5px; width: 808px; position: absolute; top: 198px;
+                        height: 9px">
+                        <tr>
+                            <td rowspan="3" style="width: 171px; height: 32px">
+                                <asp:Label ID="Label2" runat="server" Style="z-index: 100; left: 5px; position: absolute;
+                                    top: 9px" Text="Welcome to our site.." Width="189px"></asp:Label>
+                            </td>
+                            <td rowspan="3" style="width: 180px; height: 32px">
+                                <asp:Label ID="Label3" runat="server" Style="z-index: 100; left: 243px; position: absolute;
+                                    top: 9px" Text="Call 1800-0111-000" Width="159px"></asp:Label>
+                            </td>
+                            <td rowspan="3" style="width: 324px; height: 32px">
+                                <asp:Image ID="Image3" runat="server" Height="20px" ImageUrl="~/App_Data/thumbnailCATOTFNN.jpg"
+                                    Style="z-index: 100; left: 443px; position: absolute; top: 8px" Width="30px" />
+                            </td>
+                        </tr>
+                        <tr>
+                        </tr>
+                        <tr>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="width: 887px; height: 218px">
+                    &nbsp;<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

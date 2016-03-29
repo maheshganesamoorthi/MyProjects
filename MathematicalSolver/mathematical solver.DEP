@@ -1,0 +1,25 @@
+[Version]
+Version=1.0.0.0
+
+[mathematical solver.exe <0009>]
+Dest=$(AppPath)
+Date=4/4/2010
+Time=02:15
+Version=1.0.0.0
+CABFilename=mathematical solver.CAB
+CABINFFile=mathematical solver.INF
+Uses1=msvbvm60.dll
+Uses2=oleaut32.dll
+Uses3=olepro32.dll
+Uses4=asycfilt.dll
+Uses5=stdole2.tlb
+Uses6=COMCAT.DLL
+Uses7=richtx32.ocx
+Uses8=TABCTL32.OCX
+Uses9=comctl32.ocx
+
+[TABCTL32.OCX <0009>]
+Dest=$(WinSysPath)
+Date=3/9/2004
+Time=13:30
+Version=6.1.97.82

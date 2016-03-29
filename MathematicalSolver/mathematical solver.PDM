@@ -1,0 +1,291 @@
+[Root]
+Most Recent Package=Mathematical solver 1.0
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=F:\mathematical solver
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\WINDOWS\system32\EXP\TABCTL32.OCX=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comctl32.ocx=
+C:\WINDOWS\system32\richtx32.ocx=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+F:\mathematical solver\mathematical solver.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\EXP\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\comctl32.ocx=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+F:\mathematical solver\mathematical solver.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\EXP\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comctl32.ocx=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=mathematical solver.CAB
+DepCabRun=mathematical solver.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=F:\mathematical solver
+ProjectFolder=F:\mathematical solver
+ServerSideCab=
+File1=F:\mathematical solver\mathematical solver.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\mathematical solver\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\system32\EXP\TABCTL32.OCX=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comctl32.ocx=
+C:\WINDOWS\system32\richtx32.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+F:\mathematical solver\mathematical solver.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\EXP\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\comctl32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+F:\mathematical solver\mathematical solver.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\EXP\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comctl32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+F:\mathematical solver\mathematical solver.exe=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Project1
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Project1
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Project1]
+Icon1="mathematical solver.exe"
+Title1=Project1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=F:\mathematical solver\Package
+ProjectFolder=F:\mathematical solver
+ServerSideCab=
+File1=F:\mathematical solver\Package\setup.exe
+File2=F:\mathematical solver\Package\Setup.Lst
+File3=F:\mathematical solver\Package\mathematical solver.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Mathematical solver 1.0|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\
+
+[Package|Mathematical solver 1.0|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Mathematical solver 1.0|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Mathematical solver 1.0|Files Found]
+
+[Package|Mathematical solver 1.0|Files Released]
+
+[Package|Mathematical solver 1.0|Missing Dependency Information]
+C:\WINDOWS\system32\EXP\TABCTL32.OCX=
+C:\Program Files\eptsoft\Mathematics V10 FREE Download\mschrt20.ocx=
+C:\WINDOWS\system32\msscript.ocx=
+
+[Package|Mathematical solver 1.0|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comctl32.ocx=
+C:\WINDOWS\system32\richtx32.ocx=
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\msflxgrd.ocx=
+C:\WINDOWS\system32\MSINET.OCX=
+C:\WINDOWS\system32\TABCTL32.OCX=
+
+[Package|Mathematical solver 1.0|Files Added]
+
+[Package|Mathematical solver 1.0|Files Removed]
+
+[Package|Mathematical solver 1.0|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\comctl32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\Santhanam\Desktop\TEST\mathematical solver3.4.2.1.2.1.exe=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\msscript.ocx=Yes
+C:\WINDOWS\system32\msflxgrd.ocx=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\Program Files\eptsoft\Mathematics V10 FREE Download\mschrt20.ocx=Yes
+
+[Package|Mathematical solver 1.0|Configure Registry Files]
+Applicable=No
+
+[Package|Mathematical solver 1.0|Configure Remote Servers]
+Applicable=No
+
+[Package|Mathematical solver 1.0|Install Locations]
+F:\mathematical solver\mathematical solver.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\EXP\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comctl32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Santhanam\Desktop\TEST\mathematical solver3.4.2.1.2.1.exe=$(AppPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msscript.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\eptsoft\Mathematics V10 FREE Download\mschrt20.ocx=$(WinSysPath)
+
+[Package|Mathematical solver 1.0|Configure Shared Files]
+Applicable=Yes
+F:\mathematical solver\mathematical solver.exe=Yes
+C:\Documents and Settings\Santhanam\Desktop\TEST\mathematical solver3.4.2.1.2.1.exe=Yes
+
+[Package|Mathematical solver 1.0|Distribution]
+Type=single
+Size=
+Title=Mathematical solver 1.0
+
+[Package|Mathematical solver 1.0|IconGroups]
+Group0=Project1
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Mathematical solver 1.0|Project1]
+Icon1="mathematical solver.exe"
+Title1=Project1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Mathematical solver 1.0|Package]
+PackageFolder=F:\
+ProjectFolder=F:\vb ref\mathematical solver
+ServerSideCab=
+File1=F:\setup.exe
+File2=F:\Setup.Lst
+File3=F:\mathematical solver3.4.2.1.2.1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

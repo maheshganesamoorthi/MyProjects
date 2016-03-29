@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<definitions targetNamespace="http://ifum/" name="NewWebServiceService" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://ifum/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <types>
+    <xsd:schema>
+      <xsd:import namespace="http://ifum/" schemaLocation="NewWebServiceService_schema1.xsd"/>
+    </xsd:schema>
+  </types>
+  <message name="fum">
+    <part name="parameters" element="tns:fum"/>
+  </message>
+  <message name="fumResponse">
+    <part name="parameters" element="tns:fumResponse"/>
+  </message>
+  <portType name="NewWebService">
+    <operation name="fum">
+      <input message="tns:fum"/>
+      <output message="tns:fumResponse"/>
+    </operation>
+  </portType>
+  <binding name="NewWebServicePortBinding" type="tns:NewWebService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+    <operation name="fum">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="NewWebServiceService">
+    <port name="NewWebServicePort" binding="tns:NewWebServicePortBinding">
+      <soap:address location="REPLACE_WITH_ACTUAL_URL"/>
+    </port>
+  </service>
+</definitions>
+

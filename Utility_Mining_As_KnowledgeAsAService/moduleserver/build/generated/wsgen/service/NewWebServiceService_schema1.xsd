@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://ifum/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="fum" type="ns1:fum" xmlns:ns1="http://ifum/"/>
+
+  <xs:complexType name="fum">
+    <xs:sequence>
+      <xs:element name="item" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="fumResponse" type="ns2:fumResponse" xmlns:ns2="http://ifum/"/>
+
+  <xs:complexType name="fumResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

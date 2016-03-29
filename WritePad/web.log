@@ -1,0 +1,5 @@
+Line 16: Class MSComDlg.CommonDialog of control cmdopen was not a loaded control class.
+Line 23: Class MSComctlLib.StatusBar of control StatusBar1 was not a loaded control class.
+Line 47: Class MSComctlLib.ImageList of control ImageList1 was not a loaded control class.
+Line 93: Class MSComctlLib.Toolbar of control Toolbar1 was not a loaded control class.
+Line 152: Class SHDocVwCtl.WebBrowser of control WebBrowser1 was not a loaded control class.

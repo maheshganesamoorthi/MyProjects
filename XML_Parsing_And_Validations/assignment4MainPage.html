@@ -1,0 +1,206 @@
+<html>
+<head>
+<title>Homework-4 XML Parser</title>
+<script>
+    
+function generateHTML(xmlDoc){
+  
+    ELEMENT_NODE = 1;    
+    root=xmlDoc.DocumentElement;
+    tableRow=xmlDoc.getElementsByTagName("Row");
+    
+    if(tableRow.length == 0){           
+       alert("XML file contains no information about Radio Stations");
+       return false;
+       }
+               
+    html_text="<html><head><title>Radio Stations List</title></head><body>";
+    html_text+="<table border='2' style='white-space:nowrap;width:900;table-layout:auto'>";             
+    tableHeader=xmlDoc.getElementsByTagName("Header");
+    tableHeaderNames=tableHeader.item(0).childNodes;
+    html_text+="<tbody>";
+    html_text+="<tr>";
+    x=0;  y=0;
+
+    for(i=0;i<tableHeaderNames.length;i++){  
+        if(i==0){               
+           x=200;  y=88;
+           }
+           
+        if(tableHeaderNames.item(i).nodeType==ELEMENT_NODE){	
+            if(tableHeaderNames.item(i).firstChild == null)
+                {
+                     html_text+="<th>N/A</th>";  
+                }
+            else
+                {
+          header=tableHeaderNames.item(i).firstChild.nodeValue;
+                html_text+="<th>"+header+"</th>";  
+                }
+          }  
+        }
+          
+     html_text+="</tr>";
+     tableRow=xmlDoc.getElementsByTagName("Row");
+     for(i=0;i<tableRow.length;i++){ 
+         empty=0;
+         html_text+="<tr>";      
+         rowData=tableRow.item(i).childNodes; 
+         
+         for(j=0;j<rowData.length;j++){              
+             if(empty==1){
+               html_text+="<td> N/A </td>";
+               empty = 0;
+                }
+                   
+             if(rowData.item(j).nodeType==ELEMENT_NODE && rowData.item(j).firstChild != null){
+		        if(rowData.item(j).nodeName=="Logo"){				    
+                   html_text+="<td>";
+                   currentImageLink=rowData.item(j).firstChild.nodeValue.trim();
+                   if(currentImageLink.length !=0){                        
+		              html_text+="<img src='"+rowData.item(j).firstChild.nodeValue+"' alt='Image Not Available' width='"+x+"' height='"+y+"'>"; 
+                     }
+                    html_text+="</td>";
+                }
+                    
+                else if(rowData.item(j).nodeName=="Location"){
+                    locationData=rowData.item(j).childNodes;
+
+                    if((locationData.length > 1))
+                        {
+                    if((locationData[1].firstChild == null && locationData[3].firstChild == null))
+                        {
+                            html_text+="<td>N/A</td>";        
+                        }
+                    else
+                        {
+                    html_text+="<td><ul>";
+                    for(k=0;k<locationData.length;k++){
+                        if(locationData.item(k).nodeType==ELEMENT_NODE && locationData.item(k).firstChild != null){                        
+                           currentNodeValue = locationData.item(k).firstChild.nodeValue.trim();
+                           if(currentNodeValue.length != 0){ 
+                              html_text+="<li>"+locationData.item(k).firstChild.nodeValue+"</li>";
+                              }
+                            if(currentNodeValue.length == 0){ 
+                              html_text+="<li>"+N/A+"</li>";
+                              }
+                          }
+                       }
+                    html_text+="</ul></td>";
+                  }
+                }
+                    else
+                        {
+                          html_text+="<td>N/A</td>";           
+                        }
+             }
+
+              else if(rowData.item(j).nodeName=="HomePage"){				     
+                    html_text+="<td><a href=\""+rowData.item(j).firstChild.nodeValue+"\">"+rowData.item(j).firstChild.nodeValue+"</a></td>"; 
+                }
+
+            else {                    
+                    html_text+="<td>"+rowData.item(j).firstChild.nodeValue+"</td>";
+                 }
+            }
+                   
+            else if(rowData.item(j).nodeType==ELEMENT_NODE && rowData.item(j).firstChild == null){                       
+                       empty = 1;
+                }
+            } //end of nested for loop
+        
+           html_text+="</tr>"; 
+        } // end of main for loop
+        html_text+="</tbody>";  
+        html_text+="</table>";
+        html_text+="<NOSCRIPT>";
+        html_text+="</body></html>";  
+        return true;
+}
+
+function viewXML(arg)
+{
+     var URL = arg.URL.value;
+     if(!(URL.length)) {
+        alert("Enter a file name");
+        return false;
+    }
+
+     function loadXML(url) {
+          if (window.XMLHttpRequest){     // code for IE7+, Firefox, Chrome, Opera, Safari
+             xmlhttp=new XMLHttpRequest();   
+          }
+         else {    // code for IE6, IE5
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");   
+         }
+
+    try{
+        xmlhttp.open("GET",url,false);
+        xmlhttp.send();
+    }
+         catch(e){
+             alert("File not found. Please enter a valid filename");
+         }
+        var pageStatus = xmlhttp.status;
+        if(pageStatus==200) //If Page is Found
+        {
+            xmlDoc=xmlhttp.responseXML;
+            if(xmlDoc.activeElement.nodeName=="parsererror")
+            {
+                alert("Error in XML File");
+                return false;
+            }
+            return xmlDoc;
+        }
+        else if(pageStatus==404){
+                  alert("File not found. Please enter a valid filename.");
+                  return false;
+        }                  
+     }
+
+     xmlDoc = loadXML(URL);
+
+     if (window.ActiveXObject){ 
+           
+         if (xmlDoc.parseError.errorCode != 0) {
+            var myErr = xmlDoc.parseError;
+            generateError(xmlDoc);
+            hWin = window.open("", "Error", "height=300,width=340");
+            hWin.document.write(html_text);
+            } 
+        else {  
+            alert(xmlDoc);
+            generateHTML(xmlDoc);
+            hWin = window.open("", "Radio Station", +"height=800,width=1200");
+             hWin.document.write(html_text); 
+            }
+     } 
+      else 
+     {     
+        if(generateHTML(xmlDoc)){            
+             hWin = window.open("", "RadioStation ", "scrollbars=1,height=800,width=1200");
+             hWin.document.write(html_text); 
+             hWin.document.close(); 
+            }    
+     }
+
+}
+
+</script>    
+</head>
+    
+    
+<body>
+    <div style="margin:0 auto" align=center>
+        Enter URL for Company List XML File
+        <form name="myform" id="location">
+            <br/>    
+            <input type="text" name="URL" maxlength="255" size="25" value="stationslist.xml" required/>    
+            <br/>
+            <br>
+            <input type="button" name="submit" value="Submit Query" onClick="viewXML(this.form)" />
+        </form>
+    </div>
+    <NOSCRIPT>
+</body>
+</html>
