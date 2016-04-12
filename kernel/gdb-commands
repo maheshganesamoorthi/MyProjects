@@ -1,0 +1,10 @@
+/home/ashwin/Dropbox/KERNEL/weenix-assignment-2.6.0/weenix/kernel/main/gdt.gdb
+/home/ashwin/Dropbox/KERNEL/weenix-assignment-2.6.0/weenix/kernel/mm/pagetable.gdb
+/home/ashwin/Dropbox/KERNEL/weenix-assignment-2.6.0/weenix/kernel/mm/memcheck.py
+/home/ashwin/Dropbox/KERNEL/weenix-assignment-2.6.0/weenix/kernel/mm/page.py
+/home/ashwin/Dropbox/KERNEL/weenix-assignment-2.6.0/weenix/kernel/mm/slab.py
+/home/ashwin/Dropbox/KERNEL/weenix-assignment-2.6.0/weenix/kernel/proc/kthread.gdb
+/home/ashwin/Dropbox/KERNEL/weenix-assignment-2.6.0/weenix/kernel/proc/proc.py
+/home/ashwin/Dropbox/KERNEL/weenix-assignment-2.6.0/weenix/kernel/util/debug.py
+/home/ashwin/Dropbox/KERNEL/weenix-assignment-2.6.0/weenix/kernel/util/list.py
+/home/ashwin/Dropbox/KERNEL/weenix-assignment-2.6.0/weenix/kernel/vm/vmmap.gdb
